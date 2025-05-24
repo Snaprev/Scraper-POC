@@ -1,7 +1,5 @@
 ## ✍️ Technical Assignment – BolScout Scraper Proof-of-Concept
 
-*(single-person test – about 6-8 h net coding time)*
-
 Hi Yogesh & Aditya,
 
 This is the **final brief**. The pilot targets **bol.com only** (no MarketMentor references).
@@ -23,7 +21,7 @@ For the pilot we want to see how you scrape **10 000 Electronics products** in d
 | **1** | **Scraper** with two modes | • `MODE=product` – crawl one product URL/EAN we pass.• `MODE=category` – crawl Electronics catalogue until **≥ 10 000 distinct products** are in the DB (handle pagination / infinite scroll). |
 | **2** | **Data fields** per product | EAN, title, brand, current price, list price, availability, rating, review-count, main image URL, bullet specs **plus every review on page 1**: reviewer name, review title, review text, stars, review date. |
 | **3** | **Change detection** | Store snapshots in **SQLite or Postgres**. On re-crawl update only changed columns; maintain `updated_at`. |
-| **4** | **Self-healing demo** | We give you a **dummy site URL**. First run extracts a target price. We will then rename the selector; rerun without code edits → scraper still captures the price (AI or rule-based recovery). https://zp1v56uxy8rdx5ypatb0ockcb9tr6a-oci3--5173--55edb8f4.local-credentialless.webcontainer-api.io/ |
+| **4** | **Self-healing demo** | We give you a **dummy site URL**. First run extracts a target price. We will then rename the selector; rerun without code edits → scraper still captures the price (AI or rule-based recovery). https://snazzy-kringle-73884f.netlify.app/ |
 | **5** | **Cloud run** | Provide a Dockerfile plus a one-liner to deploy on Railway (free tier). Scraper should run until it reaches 10 k products, then idle or exit cleanly. |
 | **6** | **Anti-bot measures** | At least one of: rotating User-Agent, proxy pool, request throttling, or stealth browser. |
 | **7** | **Config** | Use ENV vars such as `BOL_CATEGORY`, `MAX_PRODUCTS`, `DB_URL`, etc. |
