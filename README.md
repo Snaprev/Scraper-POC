@@ -1,6 +1,6 @@
 ## ✍️ Technical Assignment – BolScout Scraper Proof-of-Concept
 
-Hi Yogesh & Aditya,
+Hi there,
 
 This is the **final brief**. The pilot targets **bol.com only** (no MarketMentor references).
 
