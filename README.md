@@ -2,7 +2,7 @@
 
 Hi there,
 
-This is the **final brief**. The pilot targets **bol.com only** (no MarketMentor references).
+This is the **final brief**. The pilot targets **bol.com only**.
 
 ---
 
