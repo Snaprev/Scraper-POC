@@ -1,7 +1,5 @@
 ## ✍️ Technical Assignment – BolScout Scraper Proof-of-Concept
 
-Hi there,
-
 ### 1. Background
 
 BolScout will eventually store **≈ 50 million** bol.com products.
@@ -53,7 +51,7 @@ For the pilot we want to see how you scrape **10 000 Electronics products** in d
 
 Repo invite today → **submission within 7 calendar days**.
 
-Questions? Ping Mohammed on LinkedIn.
+Questions? Ping Mohammed on LinkedIn: https://www.linkedin.com/in/mohammed-laghzaoui
 
 ---
 
