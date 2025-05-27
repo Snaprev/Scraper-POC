@@ -2,10 +2,6 @@
 
 Hi there,
 
-This is the **final brief**. The pilot targets **bol.com only**.
-
----
-
 ### 1. Background
 
 BolScout will eventually store **≈ 50 million** bol.com products.
